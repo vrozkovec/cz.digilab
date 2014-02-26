@@ -46,13 +46,13 @@ require 'system/config.php';
 			<!--         <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->
 			<div class="row">
 				<div class="col-sm-6">
-					<div id="upload-button" class="btn btn-lg btn-default btn-block">
-						<i class="glyphicon glyphicon-hand-down"></i> Vyberte fotografie
+					<div id="upload-button" class="btn btn-lg btn-default btn-block" style="margin-top: 20px;">
+						<i class="glyphicon glyphicon-hand-down hidden-xs"></i> Vyberte fotografie
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<div id="triggerUpload" class="btn btn-primary btn-lg btn-block">
-						<i class="glyphicon glyphicon-upload"></i> Nahrajte fotografie
+					<div id="triggerUpload" class="btn btn-primary btn-lg btn-block" style="margin-top: 20px;">
+						<i class="glyphicon glyphicon-upload hidden-xs"></i> Nahrajte fotografie
 					</div>
 				</div>
 			</div>
