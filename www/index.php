@@ -37,7 +37,7 @@ require 'system/config.php';
 			<!--           <li><a href="#">About</a></li> -->
 			<!--           <li><a href="#">Contact</a></li> -->
 			<!--         </ul> -->
-			<h3 class="text-muted">DigiLab</h3>
+			<img alt="DigiLab" src="css/img/digilab-stribrna-rgb.gif" class="img-responsive">
 		</div>
 
 		<div class="jumbotron">
@@ -46,13 +46,15 @@ require 'system/config.php';
 			<!--         <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->
 			<div class="row">
 				<div class="col-sm-6">
-					<div id="upload-button" class="btn btn-lg btn-default btn-block" style="margin-top: 20px;">
-						<i class="glyphicon glyphicon-hand-down hidden-xs"></i> Vyberte fotografie
+					<div id="upload-button" class="btn btn-lg btn-default btn-block">
+						<i class="glyphicon glyphicon-hand-down hidden-xs"></i> Vyberte
+						fotografie
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<div id="triggerUpload" class="btn btn-primary btn-lg btn-block" style="margin-top: 20px;">
-						<i class="glyphicon glyphicon-upload hidden-xs"></i> Nahrajte fotografie
+					<div id="triggerUpload" class="btn btn-primary btn-lg btn-block">
+						<i class="glyphicon glyphicon-upload hidden-xs"></i> Nahrajte
+						fotografie
 					</div>
 				</div>
 			</div>
@@ -91,11 +93,16 @@ require 'system/config.php';
 		<!-- 				<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p> -->
 		<!-- 			</div> -->
 		<!-- 		</div> -->
-		
+
 		<div class="footer">
-        <p>&copy; DigiLab 2014 <span class="pull-right">Program distribuován na základě licence GPL v3 </span></p>
-        <div class="clearfix"></div>
-      </div>
+			<div class="row">
+				<div class="col-xs-6"><small><nobr>&copy; Digilab 2014</nobr></small></div>
+				<div class="col-xs-6 text-right">
+					<small><nobr>Vytvořil <a href="http://svetit.cz">Svět IT</a></nobr></small>
+				</div>
+				<div class="col-xs-12 text-center">Program distribuován na základě licence GPL v3</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Fine Uploader DOM Element
