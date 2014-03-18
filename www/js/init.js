@@ -36,7 +36,7 @@ $(document).ready(function() {
 			fail : 'alert alert-error'
 		},
         messages: {
-            typeError: "{file} has an invalid extension. Valid extension(s): {extensions}.",
+            typeError: "{file} má neplatnou příponu. Platné přípony jsou: {extensions}.",
             sizeError: "{file} is too large, maximum file size is {sizeLimit}.",
             minSizeError: "{file} is too small, minimum file size is {minSizeLimit}.",
             emptyError: "{file} is empty, please select files again without it.",
@@ -47,7 +47,7 @@ $(document).ready(function() {
             minHeightImageError: "Image is not tall enough.",
             minWidthImageError: "Image is not wide enough.",
             retryFailTooManyItems: "Retry failed - you have reached your file limit.",
-            onLeave: "The files are being uploaded, if you leave now the upload will be canceled."
+            onLeave: "Soubory se právě nahrávají. Pokud nyní odejdete, nahrávání se přeruší."
         },	        
 	}).on('submitted', function (event, id) {
 //		updateUploadButtonStatus(uploader);

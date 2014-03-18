@@ -13,7 +13,7 @@
 		
 		if ($upload['status']=='upload successful' && file_exists($origFile)) {
 			
-			$newFile = $savePath."/".$dir."/".$upload['name'];
+			$newFile = $savePath."/".$dir."/".$upload['uuid']."_".$upload['name'];
 			
 			rename($origFile, $newFile);
 			

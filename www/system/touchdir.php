@@ -3,7 +3,7 @@
 	require 'functions.php';
 
 	do {
-		$dirname = genRandomString(7);
+		$dirname = genRandomString(3);
 		$dir = $savePath.'/'.$dirname;
 		
 	} while(file_exists($dir) && empty($dirname) == false);
